@@ -1,0 +1,99 @@
+2019-03-27 20:59:24 DEBUG LeControleur:47 - Je suis rentré avec succès dans la page d'acceuil
+2019-03-27 21:00:13 DEBUG LeControleur:78 - Je suis rentré avec succès dans la page menu
+2019-03-27 21:00:22 DEBUG LeControleur:156 - Je suis rentré avec succès dans la page menu8
+2019-03-27 21:01:48 DEBUG LeControleur:57 - Je suis rentré avec succès dans la page Nouscontacter
+2019-03-27 21:01:58 DEBUG LeControleur:178 - Je suis rentré avec succès dans la page contact
+2019-03-27 21:02:03 DEBUG LeControleur:78 - Je suis rentré avec succès dans la page menu
+2019-03-27 21:02:13 DEBUG LeControleur:106 - Je suis rentré avec succès dans la page menu3
+2019-03-27 21:03:05 DEBUG LeControleur:212 - Je suis rentré avec succès dans la page Votre_commande
+2019-03-27 21:03:05 DEBUG LeControleur:216 - le supplement est :
+Aloco : 5 DT
+Cocka Cola  : 2 DT
+Prix Total :7 DT
+
+2019-03-27 21:03:05 DEBUG LeControleur:245 - Merci Gervais Olsen d'avoir saisie votre commande
+ veuillez trouvez ci dessous votre facture
+
+Plat choisie : Travers de Porc(Cotis braisé)
+Accompagnement : frite,manioc, + Cocka Cola
+
+Aloco : 5 DT
+Cocka Cola  : 2 DT
+Nom : MAMBOUNDOU
+prenom : Gervais Olsen
+Numéro de telephone :0612525737
+Votre contact : gervaisolsen33@gmail.com
+Ville : Dammarie-les-lys
+Quartier : Ariana
+Adresse : 51 rue du capitaine Bernard de poret
+Prix total : 37 DT 
+
+Vous serez livrer dans les 30 minutes 
+Merci d'avoir choisi Fiona cooking
+2019-03-27 21:03:05 DEBUG LeControleur:254 - Je tente d'envoyer le mail
+2019-03-27 21:05:34 DEBUG LeControleur:68 - Je suis rentré avec succès dans la page d'acceuil
+2019-03-28 09:56:18 DEBUG LeControleur:47 - Je suis rentré avec succès dans la page d'acceuil
+2019-03-28 09:56:38 DEBUG LeControleur:78 - Je suis rentré avec succès dans la page menu
+2019-03-28 09:57:12 DEBUG LeControleur:136 - Je suis rentré avec succès dans la page menu6
+2019-03-28 11:00:37 DEBUG LeControleur:212 - Je suis rentré avec succès dans la page Votre_commande
+2019-03-28 11:00:37 DEBUG LeControleur:216 - le supplement est :
+Aloco : 5 DT
+Prix Total :5 DT
+
+2019-03-28 11:00:37 DEBUG LeControleur:245 - Merci PIERRE d'avoir saisie votre commande
+ veuillez trouvez ci dessous votre facture
+
+Plat choisie : Poisson braisé
+Accompagnement : riz, + Cocka Cola
+
+Aloco : 5 DT
+Nom : BONNET
+prenom : PIERRE
+Numéro de telephone :0619098860
+Votre contact : pierre.renzo.bonnet@gmail.com
+Ville : Paris
+Quartier : Ariana
+Adresse : azertyu
+Prix total : 30 DT 
+
+Vous serez livrer dans les 30 minutes 
+Merci d'avoir choisi Fiona cooking
+2019-03-28 11:00:37 DEBUG LeControleur:254 - Je tente d'envoyer le mail
+2019-03-28 16:08:51 DEBUG LeControleur:78 - Je suis rentré avec succès dans la page menu
+2019-03-28 16:09:21 DEBUG LeControleur:87 - Je suis rentré avec succès dans la page menu1
+2019-03-28 16:09:50 DEBUG LeControleur:68 - Je suis rentré avec succès dans la page d'acceuil
+2019-03-28 16:10:36 DEBUG LeControleur:78 - Je suis rentré avec succès dans la page menu
+2019-03-28 16:10:40 DEBUG LeControleur:97 - Je suis rentré avec succès dans la page menu2
+2019-03-28 16:11:33 DEBUG LeControleur:212 - Je suis rentré avec succès dans la page Votre_commande
+2019-03-28 16:11:33 DEBUG LeControleur:216 - le supplement est :Pas de supplément
+Prix Total :0 DT
+
+2019-03-28 16:12:29 DEBUG LeControleur:212 - Je suis rentré avec succès dans la page Votre_commande
+2019-03-28 16:12:29 DEBUG LeControleur:216 - le supplement est :
+Riz : 3 DT
+Prix Total :3 DT
+
+2019-03-28 16:12:49 DEBUG LeControleur:212 - Je suis rentré avec succès dans la page Votre_commande
+2019-03-28 16:12:49 DEBUG LeControleur:216 - le supplement est :
+Aloco : 5 DT
+Prix Total :5 DT
+
+2019-03-28 16:12:49 DEBUG LeControleur:245 - Merci Gervais Olsen d'avoir saisie votre commande
+ veuillez trouvez ci dessous votre facture
+
+Plat choisie : côte de Porc
+Accompagnement : frite, + Orangina
+
+Aloco : 5 DT
+Nom : MAMBOUNDOU
+prenom : Gervais Olsen
+Numéro de telephone :0612525737
+Votre contact : gervaisolsen33@gmail.com
+Ville : Dammarie-les-lys
+Quartier : Ariana
+Adresse : 51 rue du capitaine Bernard de poret
+Prix total : 35 DT 
+
+Vous serez livrer dans les 30 minutes 
+Merci d'avoir choisi Fiona cooking
+2019-03-28 16:12:49 DEBUG LeControleur:254 - Je tente d'envoyer le mail

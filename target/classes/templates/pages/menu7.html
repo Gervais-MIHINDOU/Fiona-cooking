@@ -1,0 +1,640 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Fiona cooking</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg" />
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/main.css">
+			
+			<style type="text/css">
+			
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+       </style>
+			
+		</head>
+		<body style="Background-Color:#FAFAD2;">
+		<form  method="post" enctype="multipart/form-data" action="Votre_commande">	
+			<header id="header">
+				<div class="header-top">
+					<div class="container">
+				  		<div class="row justify-content-center">
+						      <div id="logo">
+						        <a href="home"><img style="width:120px;height:110px;" src="img/logo.jpg" alt="" title="" /></a>
+						      </div>
+				  		</div>			  					
+					</div>
+				</div>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-center d-flex">			
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="home">Bienvenue</a></li>
+				          <li><a href="about">A propos de nous</a></li>
+				          <li><a href="menu">Nos Menus</a></li>
+				          <li><a href="NousContacter">Nous contacter</a></li>
+				      		          					          		          
+				          <li><a href="contact">Contacts</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->					      		  
+					</div>
+				</div>
+			</header><!-- #header -->
+			<!-- start banner Area -->
+			<section class="about-banner relative">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 style="font-size: 37px;font-family: Times New Roman;"class="text-white">
+								Saisissez vos informations et on vous livre				
+							</h1>	
+							<p class="text-white link-nav"></p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			
+<div  class="row">
+
+<div style="background-color:#FAFAD2;" class="col-md-6 all breakfast">
+								<div class="single-menu">
+								    <h3 style="font-size: 15px;font-family:Georgia;font-weight: bold;color:red;"><th th:text= "${message}"></th></h3><br/>
+									<div class="title-wrap d-flex justify-content-between">
+										<h4 style="font-size: 27px;font-family: Times New Roman;">Gambas braisé</h4>
+										<h4 class="price">30 DT</h4>
+									</div>			
+									<p style="font-size: 17px;font-family: Times New Roman;">
+									L'entrée et le dessert du jour accomapagneront ce plat <br/> Vous pouvez choisir un accompagnement et une boisson  <br/>
+									 <br/>
+									</p>
+									
+                            	<div style="background-color:#FAFAD2;" class="single-gallery">
+                            		 <a href="menu1" class="thumbnail">
+                            		<img class="img-fluid" src="img/g7.jpg" alt="" style="background-color: rgba(144, 178, 71, 0.5);border-style:green solid;
+   border-width: 2px; border-radius: 10px">
+                            		</a>
+                            	</div>	<br/><br/>  <br/> 
+                            	                   
+       <div style="background-color:#FAFAD2;" class="row">
+    
+       <div style="text-align:center;" class="col-md-5 col-md-push-2"><h4 style="font-size: 17px;font-family: Times New Roman;"> Choisissez un accompagnement</h4></div>  <br/> <br/> 
+      
+          <div class="row">
+       
+            <div class="col-md-3">
+                 <input type="radio" name="complement" id="riz" value="riz" /> <br />
+                 	
+                    <img src="img/riz.jpg" alt="125x125" style="background-color: rgba(144, 178, 71, 0.5);border-style:green solid;
+   border-width: 2px; border-radius: 10px"><br />
+               <label for="riz">Riz</label>
+                
+            </div>
+               <div class="col-md-3">
+                 <input type="radio" name="complement" id="aloco" value="aloco"  /> <br />	
+                    <img src="img/aloco.png" alt="125x125" style="background-color: rgba(144, 178, 71, 0.5);border-style:green solid;
+   border-width: 2px; border-radius: 10px"><br />
+               <label for="aloco">Aloco</label>
+    
+            </div>
+            <div class="col-md-3">
+                 <input type="radio" name="complement" id="frite" value="frite"  /> <br />	
+                    <img src="img/fritte.jpg" alt="125x125" style="background-color: rgba(144, 178, 71, 0.5);border-style:green solid;
+   border-width: 2px; border-radius: 10px"><br />
+               <label for="frite">Frite</label>
+                
+            </div>
+            <div class="col-md-3">
+                 <input type="radio" name="complement " id="manioc" value="manioc"  /> <br />	
+                    <img src="img/manioc.jpg" alt="125x125"style="background-color: rgba(144, 178, 71, 0.5);border-style:green solid;
+   border-width: 2px; border-radius: 10px"><br />
+               <label for="manioc">Manioc</label>
+                <input type="hidden" name="complement " id="manioc" value="" required /> <br />
+                    
+              
+            </div>
+       
+        </div>
+       </div> 
+<div class="row">
+           
+           <div class="col-md-11 ">
+             <br/> <br/>
+              <h6 style='font-size: 17px;font-family: Times New Roman;'>Nos Boissons</h6> 
+             <select name="boisson" id="boisson"style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:230px;">
+                 <option value="">choisissez une boisson ici</option>
+                 <option value="fanta">fanta</option>
+                 <option value="Cocka Cola">Cocka Cola</option>
+                 <option value="Orangina">Orangina</option>
+                 <option value="sprit">Sprit</option>
+             </select>
+           </div>
+
+        <br/>
+     
+               <div class="col-md-11 ">
+           <br/> <br/>
+           <h6 style="font-size: 17px;font-family: Times New Roman;">Clickez sur les supléments que vous voulez ajouter<br/>Vous pouvez ajouter autant que vous le voulez</h6>	
+      
+                 <input type="button" class="supl" id="alloco" value="+ Alloco 5 DT"
+                   style="background-color: rgba(144, 178, 71, 0.5); width:100px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px">  
+ 
+                 <input type="button" id ="Riz" value="+ Riz 3 DT" style="background-color: rgba(144, 178, 71, 0.5); width:100px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+                 <input type="button" id ="Frit" value="+ Frit 2 DT" style="background-color: rgba(144, 178, 71, 0.5); width:100px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+                 
+                 <input type="button" id ="Manioc" value="+ Manioc 5 DT" style="background-color: rgba(144, 178, 71, 0.5); width:110px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/><br/><br/><br/>
+                 <input type="button" id ="fanta" value="+ fanta 2 DT" style="background-color: rgba(144, 178, 71, 0.5); width:100px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+                 <input type="button" id ="Cocka" value="+ Cocka Cola 2 DT" style="background-color: rgba(144, 178, 71, 0.5); width:140px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+                 <input type="button" id ="Orangina" value="+ Orangina 2 DT" style="background-color: rgba(144, 178, 71, 0.5); width:125px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+                 <input type="button" id ="sprit" value="+ sprit 2 DT" style="background-color: rgba(144, 178, 71, 0.5); width:100px;height:30px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+    
+             <p id="choisie"></p>
+           </div>
+        
+  </div>         
+            					
+								</div>
+													                               
+                           
+
+</div>
+<div class="col-md-6">		
+		  
+<br/>	<br/><br/>	<br/><br/><br/><br/><br/><br/><br/><br/>
+<p style="font-size: 18px;font-family:cursive;font-weight: bold;text-align:center;">Saisissez vos informations et on vous livre dans les temps </p><br/>
+				<br/><br/>
+     
+			<label for="nom" style="font-size: 16px;font-family:Georgia;"> Nom : </label><br/>
+			<input type="text" name="nom" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required/><br/><br/>
+             <label for="prenom" style="font-size: 16px;font-family:Georgia;"> Prenom : </label><br/>
+			<input type="text" name="prenom" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required/>
+			<br/><br/>
+			<label for="login" style="font-size: 16px;font-family:Georgia;"> adresse mail ou Teléphone  </label><br/>
+			<input type="text" name="login" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required/><br/><br/>
+   <label for="tel" style="font-size: 16px;font-family:Georgia;"> Télephone: </label><br/>
+			<input type="text" name="tel" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required/><br/><br/>
+   <label for="ville" style="font-size: 16px;font-family:Georgia;"> Ville : </label><br/>
+			<input type="text" name="ville" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required/><br/><br/>
+   
+   <label for="quartier" style="font-size: 16px;font-family:Georgia;"> Quartier : </label><br/>
+			<Select  name="quartier" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:400px;height:30px;" required>
+                  <option value= "Ariana">Ariana</option>
+                  <option value="Centre Urbain Nord">Centre Urbain Nord</option> 
+                  <option value="Charguia I">Charguia I</option>  
+                  <option value="Charguia II">Charguia II</option>  
+                  <option value="Cité El Khadra">Cité El Khadra</option>  
+                  <option value="Cité Les jardins">Cité Les jardins</option>  
+                  <option value="cité Olympique">cité Olympique</option>  
+                  <option value="El Manar I">El Manar I</option>  
+                  <option value="El Manar II">El Manar II</option>  
+                  <option value="El Menzah">
+                    El Menzah(1,4,5,6,7,7bis,8,9,9A,9B,9C)       
+                     </option>  
+                  <option value="Enassr 1">Enassr 1</option>  
+                  <option value="Enassr 2">Enassr 2</option> 
+                  <option value="Les berges su Lac 1">Les berges su Lac 1</option>
+                  <option value="Mont Plaisir">Mont Plaisir</option> 
+                  <option value="Mutuelle Ville">Mutuelle Ville</option> 
+                  <option value="Notre Dame">Notre Dame</option> 
+                  <option value="Nouvelle Ariana">Nouvelle Ariana</option>
+                  <option value="Riadh El Andaloss">Riadh El Andaloss</option> 
+                  <option value="Nour Jaafar">Nour Jaafar</option> 
+                  <option value="Soukra">Soukra</option> 
+                  <option value="Technopole la Gazelle">Technopole la Gazelle</option>
+                  <option value="Tunis Centre">Tunis Centre</option> 
+                  <option value="Aouina">Aouina</option>
+                  <option value="Ain Zaghouan">Ain Zaghouan</option>
+                  <option value="Cité Khalil">Cité Khalil</option>
+                  <option value="Cité des juges">Cité des juges</option> 
+                  <option value="Dar Fadhel">Dar Fadhel</option>            
+   
+           </Select><br/><br/>
+   <label for="adresse" style="font-size: 16px;font-family:Georgia;"> Adresse complète : </label><br/>
+			<input type="text" name="adresse" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:300px;height:30px;"required /><br/><br/>
+   		<input type="hidden" name="article" id="article" value="Gambas braisé" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:300px;height:30px;"/><br/><br/>
+   	<input type="hidden" name="prixTotal" id="prixTotal" value="30" style="border-style:green solid;
+   border-width: 2px; border-radius: 10px; width:300px;height:30px;"/><br/><br/>
+			
+			<p id="olsen">
+		           
+			</p>
+			
+			<div id="gervais">
+		       <input type='hidden' name='suplement' id='suplement' value='Pas de supplément' />    
+			</div>
+			
+			<div id="mihindou">
+		        <input type='hidden' name='Prixsuplement' id='Prixsuplement' value='0' />   
+			</div>
+			
+			<div id="mamboundou">
+		       
+			</div>
+			
+		   
+			<br/><br/><br/><br/><br/><br/><br/><br/>
+			<input type="submit" id="Valider" value="Valider" style="background-color: rgba(144, 178, 71, 0.5); width:130px;height:50px;border-style:green solid;
+   border-width: 2px; border-radius: 10px"/>
+		
+	
+			
+
+ 
+ </div>
+ 			
+</div>	<br/><br/><br/><br/><br/><br/>
+			<!-- start footer Area -->		
+			<footer class="footer-area">
+				<div class="footer-widget-wrap">
+					<div class="container">
+						<div class="row section-gap">
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4 style="font-size: 17px;font-family: Times New Roman;">Heures d'ouverture</h4>
+									<ul class="hr-list">
+										<li class="d-flex justify-content-between">
+											<span style="font-size: 19px;font-family: Times New Roman;">Lundi - Vendredi :      10h - 23h</span>
+										</li>
+																													
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4 style="font-size: 19px;font-family: Times New Roman;">Contactez nous</h4>
+									<p style="font-size: 19px;font-family: Times New Roman;" class="number">
+										+33612525737 <br>
+										+21654027233
+									</p>
+								</div>
+							</div>						
+							<div class="col-lg-4  col-md-6 col-sm-6">
+								<div class="single-footer-widget">
+									<h4 style="font-size: 19px;font-family: Times New Roman;">Notre unique objectif : Vous servir</h4>
+									<p style="font-size: 19px;font-family: Times New Roman;"> pour tout problèmes ou annulation <br/>
+									veuillez nous contacter très rapidement au +21654027233 ou sur fionacooking@gmail.com</p>
+									<div class="d-flex flex-row" id="mc_embed_signup">
+
+
+										 
+									</div>
+								</div>
+							</div>						
+						</div>					
+					</div>					
+				</div>
+				<div class="footer-bottom-wrap">
+					<div class="container">
+						<div class="row footer-bottom d-flex justify-content-between align-items-center">
+						
+						<div class="copyright">	
+					<a title="fiona cooking" target="_blank" href="www.fionacooking.com">fiona cooking</a> 
+						Designed by: <a title="Theme Freesia" target="_blank" href="https://fr.linkedin.com/in/gervais-mihindou-53445a8b">MIHINDOU Gervais</a> <span> 
+						© 2018 <a title="WordPress" target="_blank" href="https://fr.linkedin.com/in/gervais-mihindou-53445a8b">Ingenieur Logiciel</a> </span>
+					</div>
+				<div style="clear:both;">Cette application a été développé en Spring MVC(Framwork de Java EE) par MIHINDOU Gervais</div>
+		</div> <!-- end .wrap -->
+	</div>
+			
+						</div>							
+				
+			</footer>
+			<!-- End footer Area -->	
+</form>
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
+ 			<script src="js/jquery-ui.js"></script>					
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>					
+			<script src="js/owl.carousel.min.js"></script>			
+            <script src="js/isotope.pkgd.min.js"></script>								
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>
+			<script type="text/javascript">
+
+	
+		var variableF = ""; // pour afficher sur la facture du front
+		
+		var VaribableJava =""; //Pour les inputs de la facture du back
+		var prixTotalAccompagnement =0;
+		var prixTotalAccompagnementF =""; //les input du prix total du back
+		var prixFinal = 30;
+		
+		function maFacture(a){
+			VaribableJavaF ="<input type='hidden' name='suplement' id='suplement' value='"+a+"' />";	
+			
+			return VaribableJavaF;
+		}	
+		
+		function PrixmaFacture(b){
+			prixTotalAccompagnementF ="<input type='hidden' name='Prixsuplement' id='Prixsuplement' value='"+b+"' />";	
+			return prixTotalAccompagnementF;
+		}
+		
+// 		function PrixCommande(b){
+// 			prixTotalAccompagnementF ="<input type='hidden' name='Prixsuplement' id='Prixsuplement' value='"+b+"' />";	
+// 			return prixTotalAccompagnementF;
+// 		}
+// 		var prixTotal
+		
+		$("#alloco").click(function(){
+			prixFinal =prixFinal+5; 
+				var answer = confirm("Désirez vous ajouter un suplement d'aloco à 5 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT")
+				if (answer) {
+					variableF = variableF+"<li>aloco : 5 DT</li>";
+					$("#olsen").html(variableF);
+					
+					VaribableJava = VaribableJava+"\nAloco : 5 DT";
+					$("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+5;
+					 
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					   
+					//Arial, Helvetica, sans-serif Times New Roman
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+				
+				
+				
+			         });
+			
+
+			$("#Frit").click(function(){
+				prixFinal =prixFinal+2; 
+				var answer = confirm("Désirez vous ajouter un suplement de frite à 2 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT")
+				
+				if (answer) {
+					variableF = variableF+"<li>Frit : 2 DT</li>";
+					$("#olsen").html(variableF);
+					
+					VaribableJava = VaribableJava+"\nFrit : 2 DT";
+	               $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+2;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+		
+				
+				
+			         });
+			
+			$("#Riz").click(function(){
+				prixFinal =prixFinal+3; 
+				var answer = confirm("Désirez vous ajouter un suplement de riz à 3 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					
+					variableF = variableF+"<li>Riz : 3 DT</li>";
+					$("#olsen").html(variableF);
+					
+					VaribableJava = VaribableJava+"\nRiz : 3 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+3;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+				
+				
+		 	           
+			         });
+			
+			$("#Manioc").click(function(){
+				prixFinal =prixFinal+5; 
+				var answer = confirm("Désirez vous ajouter un suplement de Manioc à 5 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					
+					variableF = variableF+"<li>Manioc : 5 DT</li>";
+					$("#olsen").html(variableF);
+					
+					VaribableJava = VaribableJava+"\nManioc : 5 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+5;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+		 	           
+			         });
+			
+
+			$("#fanta").click(function(){
+				prixFinal =prixFinal+2; 
+				var answer = confirm("Désirez vous ajouter un suplement de fanta à 2 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					variableF = variableF+"<li>Fanta : 2 DT</li>";
+					$("#olsen").html(variableF);			
+			 	     
+					VaribableJava = VaribableJava+"\nFanta : 2 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+2;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+			
+			
+			         });
+			
+
+			$("#Cocka").click(function(){
+				prixFinal =prixFinal+2; 
+				var answer = confirm("Désirez vous ajouter un suplement de Cocka cola à 2 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					variableF = variableF+"<li>Cocka Cola : 2 DT</li>";
+					$("#olsen").html(variableF);
+					
+					VaribableJava = VaribableJava+"\nCocka Cola  : 2 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+2;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+			 	           
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+						         });
+
+			$("#Orangina").click(function(){
+				prixFinal =prixFinal+2; 
+				var answer = confirm("Désirez vous ajouter un suplement de Orangina à 2 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					variableF = variableF+"<li>Orangina : 2 DT</li>";
+					$("#olsen").html(variableF);			
+			 	     
+					VaribableJava = VaribableJava+"\nOrangina  : 2 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+2;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}
+				
+			
+				
+			         });
+			
+			$("#sprit").click(function(){
+				prixFinal =prixFinal+2; 
+				var answer = confirm("Désirez vous ajouter un suplement de Orangina à 2 DT\nPrix de votre facture suplément inclu = "+prixFinal+" DT");
+				if (answer) {
+					variableF = variableF+"<li>Sprit : 2 DT</li>";
+					$("#olsen").html(variableF);	
+					
+					VaribableJava = VaribableJava+"\nSprit  : 2 DT";
+	                $("#gervais").html(maFacture(VaribableJava));
+					
+					prixTotalAccompagnement = prixTotalAccompagnement+2;
+					$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+					  var prixTotal = "<h4  style='font-size: 17px;font-family: Times New Roman; '>Prix Total de la facture suplément inclu : "+prixFinal+" DT</h4>";
+						$("#mamboundou").html(prixTotal);
+				}
+				else {
+					alert("Vous pouvez toujours choisir un autre suplément");
+				}           
+			         });
+			
+			
+			
+			
+// 			$("#annuler").click(function(){
+// 				alert("Hello word :");
+				
+// 				load("http://localhost:6060/menu1");
+				
+// 				$("#olsen").html("<li>Hello word</li>");	
+				
+// 				VaribableJava = "Vous n'avez pas choisie de suplément";
+//                 $("#gervais").html(maFacture(VaribableJava));
+				
+// 				prixTotalAccompagnement = 0;
+// 				$("#mihindou").html(PrixmaFacture(prixTotalAccompagnement));
+				
+// 			  var annuler = "<input type='hidden' name='Prixsuplement' id='annuler' value='Annuler' style='background-color: pink; width:70px;height:30px;border-style:green solid;border-width: 2px; border-radius: 10px' />";
+// 				$("#mamboundou").html(annuler);
+		 	           
+// 			         });
+			
+			
+			 
+			
+// 			$("#Valider").click(function(event){
+	
+// 	$( document ).ready(function() {	
+	
+// 		alert("baba");
+// 	$.ajax({
+// 		  type: "POST",
+		  
+// 		  url: 'https://gatewayapi.com/rest/mtsms',
+// 		  oauth: {
+// 		    consumer_key: 'OCAoc27IFTtFrrNNcFWtDQa-',
+// 		    consumer_secret: 'BbyLqlaI6pSbI1DhDFbjpumxFk6ySnvx6Z!CjIeB',
+// 		  },
+// 		  json: true,
+// 		  body: {
+// 		    sender: 'ExampleSMS',
+// 		    message: 'Hello World',
+// 		    recipients: [{msisdn: 4512345678}],
+// 		  },
+		  
+// 		 success:function(response) {
+// 		         alert("Succes");
+		       
+// 	       }, 
+	    
+// 	       error:function(){
+// 	           alert("error");
+// 	          },
+// 		  });
+	
+// 	          });
+	
+
+//         });
+
+
+
+</script>	
+		</body>
+	</html>
